@@ -12,6 +12,10 @@ function Home(){
             <Link to="/use-context">Use Context</Link>
             <br/>
             <Link to="/use-reducer">Use Reducer</Link>
+            <br/>
+            <Link to="/use-ref">
+                Use Refrence
+            </Link>
         </div>
     )
 }
