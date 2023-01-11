@@ -2,7 +2,7 @@ import { useContext, createContext } from "react";
 
 const ExampleContext = createContext(null);
 
-export default function useContextExample() {
+function useContextExample() {
 	return (
 		<ExampleContext.Provider value="dark">
 			<ChildComponent />
@@ -12,7 +12,7 @@ export default function useContextExample() {
 
 function ChildComponent() {
 	return (
-		<div>
+		<div className="App">
 			<NestedChildComponent />
 		</div>
 	);
@@ -23,3 +23,6 @@ function NestedChildComponent() {
 	console.log(theValue);
 	return <div>The value was {theValue}</div>;
 }
+
+
+export default useContextExample;

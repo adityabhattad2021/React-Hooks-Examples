@@ -11,6 +11,7 @@ function Home(){
             <br/>
             <Link to="/use-context">Use Context</Link>
             <br/>
+            <Link to="/use-reducer">Use Reducer</Link>
         </div>
     )
 }

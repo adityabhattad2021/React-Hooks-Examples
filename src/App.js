@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import { UseStateExample,UseEffectExample,UseContextExample } from "./hooks-examples";
+import { UseStateExample,UseEffectExample,UseContextExample, UseReducerExample } from "./hooks-examples";
 
 function App() {
 	return (
@@ -14,6 +14,8 @@ function App() {
         element={<UseEffectExample/>}/>
         <Route path="/use-context"
         element={<UseContextExample/>}/>
+        <Route path="/use-reducer"
+        element={<UseReducerExample/>}/>
       </Routes>
     </div>
   );
