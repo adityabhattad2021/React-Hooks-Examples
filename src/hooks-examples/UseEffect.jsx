@@ -1,13 +1,11 @@
 import { useEffect } from "react";
 
+function UseEffectExample() {
+	useEffect(() => {
+		console.log("UseEffect triggered");
+	}, []);
 
-function UseEffectExample(){
-    return (
-        <div>
-            Use Effect
-        </div>
-    )
+	return <div>Check Console</div>;
 }
-
 
 export default UseEffectExample;
