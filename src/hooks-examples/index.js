@@ -3,3 +3,4 @@ export { default as UseEffectExample } from "./UseEffect";
 export { default as UseContextExample } from "./UseContext";
 export {default as UseReducerExample } from "./UseReducer";
 export {default as UseRefrenceExample} from "./UseRefrence";
+export {default as UseRefrenceExample2} from "./UseRefrence2";

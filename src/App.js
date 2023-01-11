@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import { UseStateExample,UseEffectExample,UseContextExample, UseReducerExample, UseRefrenceExample } from "./hooks-examples";
+import { UseStateExample,UseEffectExample,UseContextExample, UseReducerExample, UseRefrenceExample, UseRefrenceExample2 } from "./hooks-examples";
 
 function App() {
 	return (
@@ -18,6 +18,8 @@ function App() {
         element={<UseReducerExample/>}/>
         <Route path="/use-ref"
         element={<UseRefrenceExample/>}/>
+        <Route path="/use-ref-2"
+        element={<UseRefrenceExample2/>}/>
       </Routes>
     </div>
   );
